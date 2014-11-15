@@ -37,7 +37,8 @@ of 17,568 observations in this dataset.
 
 
 ```r
-setwd("~/Desktop/RepData_PeerAssessment1") 
+setwd("~/Desktop/RepData_PeerAssessment1")
+# Read in data
 data1 <- read.csv("activity.csv")
 head(data1)
 ```
@@ -244,6 +245,12 @@ xyplot(steps ~ interval | factor(daylevel),
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-8-1.png) 
+
+```r
+# install.packages("knitr")
+# library (knitr)
+# knit2html()
+```
 
 
 

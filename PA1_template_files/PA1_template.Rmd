@@ -41,7 +41,8 @@ of 17,568 observations in this dataset.
 ## Loading and preprocessing the data
 
 ```{r,echo=TRUE}
-setwd("~/Desktop/RepData_PeerAssessment1") 
+setwd("~/Desktop/RepData_PeerAssessment1")
+# Read in data
 data1 <- read.csv("activity.csv")
 head(data1)
 str(data1)
@@ -158,6 +159,10 @@ xyplot(steps ~ interval | factor(daylevel),
        layout = c(1, 2),
        xlab="5-Minute Intervals",
        ylab="Average Steps Taken")
+
+# install.packages("knitr")
+# library (knitr)
+# knit2html()
 ```
 
 
