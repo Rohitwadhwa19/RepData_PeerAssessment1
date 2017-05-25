@@ -1,7 +1,7 @@
 # Reproducible Research: Peer Assessment 1
 ## Introduction
 
-It is now possible to collect a large amount of data about personal movement using 
+It  is now possible to collect a large amount of data about personal movement using 
 activity monitoring devices such as a Fitbit, Nike Fuelband, or Jawbone Up. 
 These type of devices are part of the “quantified self” movement – a group of 
 enthusiasts who take measurements about themselves regularly to improve their 
